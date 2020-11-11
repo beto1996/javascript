@@ -1,0 +1,62 @@
+
+body{
+    background-color: rgb(14, 51, 87);
+}
+.wraper{
+    width: 500px;
+    height: 200px;
+    border: 1px solid rgb(143, 135, 135);
+    background-color: rgb(143, 135, 135);
+    display: flex;
+}
+p{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 22px;
+}
+
+.wraper2{
+    width: 180px;
+    height: 40px;
+    background-color: rgb(245, 235, 228);
+    margin-top: 17px;
+    margin-left: 120px;
+   
+    
+}
+.item{
+    position: relative;
+    width: 120px;
+    height: 40px;
+    background-color:white;
+    margin-top:80px;
+    margin-left: 2px;
+    display: grid;
+       
+}
+
+
+/*კალკულატორი*/
+.title{ 
+    margin-bottom: 10px; 
+    text-align:center; 
+    width: 210px; 
+    color:green; 
+    border: solid black 2px; 
+    } 
+
+    input[type="button"] 
+    { 
+    background-color:green; 
+    color: black; 
+    border: solid black 2px; 
+    width:100% 
+    } 
+
+    input[type="text"] 
+    { 
+    background-color:white; 
+    border: solid black 2px; 
+    width:100% 
+    } 
+   
