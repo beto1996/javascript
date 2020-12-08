@@ -1,0 +1,39 @@
+
+.line{
+    width: 720px;
+    height: 0.1px;
+    border: solid black 1px;
+    margin-top: 5px;    
+}
+.insidebox{
+    width: 680px;
+    height: 350px;
+    border: solid rgb(38, 38, 177) 1px;
+    margin-top: 12px;
+    position: relative;
+}
+.insidebox2{
+    width: 350px;
+    height: 120px;
+    border: solid rgb(19, 19, 54) 1px;
+    
+}
+#square{
+    width: 70px;
+    height: 70px;
+    border: solid rgb(5, 5, 22) 1px;
+    position: absolute;
+    background-color: rgb(7, 159, 206);
+   
+}
+
+button{
+    margin-top: 6px;
+}
+
+.box{
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    background-color: blue;
+}
