@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 12vh;
+    background-color: #5d4954;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    color: rgb(236, 236, 236);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.navlink{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    list-style: none;
+}
+.navlink a{
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.line div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(236, 236, 236);
+    margin: 5px;
+}
+.line{
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and(max-width:1024px){
+    .navlink{
+        width: 60%;
+        
+}
+}
+@media screen and(max-width:1024px){
+    .navlink a{
+        width: 60%;
+        cursor: pointer;
+        
+}
+}
+
+
+@media screen and (max-width: 760px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .navlink{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #5d4954;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .navlink li{
+        opacity: 0;
+    }
+
+    .line{
+        display: block;
+    }
+}
+
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navlinkfade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.par1{
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, 5%);
+    width: 800px;
+    height: 400px;
+    color: rgb(255, 255, 255);;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 82px;
+    font-weight: bold;
+}
+
+@media ( max-width: 800px ) {
+    .par1 {
+        width: 180px;
+        height: 60px;
+        font-size: 1.875em;
+        left: 30%;
+      }
+     }
+
+     .cloud{
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         background: url(cloud.png);
+         animation: animate 60s linear infinite;
+         border: none;
+         
+     }
+    
+     @keyframes animate{
+         0%{
+             background-position: 0px;
+         }
+         100%{
+             background-position: -5440px;
+         
+     }
+    }
