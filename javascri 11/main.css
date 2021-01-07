@@ -1,0 +1,13 @@
+
+
+
+#canvas{
+    background-color: white;
+    border: solid rgb(131, 134, 132) 2px;
+    width: 500px;
+    height: 300px;
+    margin-left: 35%;
+  
+    border: none;
+}
+
