@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form action="" method="GET">
+        <div>
+            <label for="user">Name</label>
+            <input type="text" name="user name" id="username">
+        </div><br>
+        <div>
+            <label>last name</label>
+            <input type="text" name="password" id="password1"> 
+        </div><br>
+        
+
+        <input type="button" value="Check" onclick="myfun()">
+    </form>
+    <hr> <hr>
+    <hr>
+    <form action="Welcome.html" method="post">
+        <table border="0" align="center">
+        <tbody>
+        
+        <tr>
+        <td><label for="id">Id: </label></td>
+        <td><input id="id" maxlength="50" name="name" type="text" /></td>
+        </tr>
+        
+        
+        
+        
+        <>
+        <td><label for="email">Email_Address:</label></td>
+        <td><input id="email" maxlength="50" name="email" type="text" /></td>
+        </>
+        
+        <tr>
+        <td><label for="username">User_Name:</label></td>
+        <td><input id="username" maxlength="50" name="username" type="text" /></td>
+        </tr>
+        
+       
+        
+
+        </tbody>
+        </table>
+        </form>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <table id="tblResult">
+        <tr>
+          <td>Random</td>
+          <td>Minutes</td>
+        </tr>
+      </table>
+      <hr>
+      <hr>
+      <hr>
+
+    <p> Enter two number for an average below </p>
+		<p> Number 1<input type="text" id="userInput1"></input></p>
+    	<p> Number 2<input type="text" id="userInput2"></input></p>
+        <button onclick="averageButton"> Calculate</button>
+        <hr>
+        <hr>
+        <hr>
+        <input type="date" id="myDate"  />
+        <hr>
+        <br>
+        <br>
+        <br>
+        <h1>My form </h1>
+        <form action="v1.0/user/login" method="post" id = "frm1">
+            <p>
+                UserName : <input type="text" id = "uname" name="username" />
+            </p>
+            <p>
+                Password : <input type="text" name="password" />
+            </p>
+            <p>
+                <input type="hidden" class="email" id = "isEmail1" name = "isEmail"/>
+            </p>
+            <input type="submit" id = "submit" value="check" onclick="return check();"/>
+        </form>
+    <script>
+        myfun();
+        document.write("<hr>");
+        multiple();
+        document.write("<hr>");
+        average();
+        document.write("<hr>");
+        str2();
+        document.write("<hr>");
+        str4();
+        document.write("<hr>");
+        random();
+        document.write("<hr>");
+        readNumber()
+        document.write("<hr>");
+        SetDate();
+        document.write("<hr>");
+        check();
+    </script>
+</body>
+</html>
